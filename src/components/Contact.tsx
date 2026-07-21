@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Github, Youtube, Instagram, Download, Palette } from 'lucide-react';
+import { Mail, Linkedin, Github, Instagram, Download, Palette } from 'lucide-react';
 import { PERSONAL_INFO } from '../data';
 
 export default function Contact() {
@@ -79,7 +79,7 @@ export default function Contact() {
             Professional & Social Platforms
           </span>
 
-          <div className="grid grid-cols-2 sm:grid-cols-5 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
             
             {/* LinkedIn */}
             <a
@@ -103,18 +103,6 @@ export default function Contact() {
             >
               <Github className="w-5 h-5 text-zinc-300 group-hover:text-white transition-colors" />
               <span className="text-xs font-sans font-semibold text-zinc-200">GitHub</span>
-            </a>
-
-            {/* YouTube */}
-            <a
-              id="contact-social-youtube"
-              href={PERSONAL_INFO.socials.youtube}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex flex-col items-center justify-center gap-2 p-4 rounded-xl bg-zinc-950 border border-zinc-800 hover:border-red-500 transition-colors text-center group"
-            >
-              <Youtube className="w-5 h-5 text-zinc-300 group-hover:text-red-500 transition-colors" />
-              <span className="text-xs font-sans font-semibold text-zinc-200">YouTube</span>
             </a>
 
             {/* ArtStation */}
