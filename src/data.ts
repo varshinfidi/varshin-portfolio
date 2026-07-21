@@ -8,7 +8,7 @@ export const PERSONAL_INFO = {
   about: "I am an AR/VR Developer specializing in Unreal Engine, immersive experiences, cinematic storytelling, and real-time interactive applications. My expertise includes VR, AR, mixed reality, environment creation, Blueprint scripting, gameplay systems, UI implementation, and real-time visualization. I enjoy building immersive worlds, designing interactive experiences, and transforming ideas into polished products using modern XR technologies.",
   heroHeading: "Building immersive experiences through Unreal Engine, XR technologies, and cinematic storytelling.",
   heroSubheading: "I create AR, VR, and real-time interactive applications using Unreal Engine, combining technical development with visual design to deliver engaging experiences.",
-  avatarUrl: "/src/assets/images/varshin_avatar_1784618938630.jpg",
+  avatarUrl: "/varshin_avatar.jpg",
   email: "varshinnarasimman@gmail.com",
   socials: {
     linkedin: "https://www.linkedin.com/in/varshin-narasimman",
