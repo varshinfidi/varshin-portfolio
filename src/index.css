@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;650;700&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Print configuration overrides (specifically for the resume view) */
+@media print {
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+  header, footer, button, #theme-toggle, #main-header, #back-to-top-footer, #resume-overlay .print\:hidden {
+    display: none !important;
+  }
+  #resume-overlay {
+    position: static !important;
+    background: none !important;
+    backdrop-filter: none !important;
+    padding: 0 !important;
+    overflow: visible !important;
+  }
+  #resume-modal-container {
+    box-shadow: none !important;
+    max-width: 100% !important;
+    border: none !important;
+    border-radius: 0 !important;
+    overflow: visible !important;
+    background: white !important;
+    color: black !important;
+  }
+  #resume-print-sheet {
+    padding: 0 !important;
+    color: black !important;
+    background: white !important;
+  }
+  /* Force black text for print visibility */
+  #resume-print-sheet * {
+    color: black !important;
+  }
+}

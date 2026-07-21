@@ -1,0 +1,6 @@
+{
+  "name": "Varshin Narasimman Portfolio",
+  "description": "AR/VR Developer & Unreal Engine Artist portfolio showcasing immersive real-time interactive experiences.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
